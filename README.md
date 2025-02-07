@@ -1,6 +1,6 @@
 # Deep Learning-Based Image Segmentation
 
-## ASFS-Net: Advanced Segmentation of Endocardial and Epicardial Layers with Fusion Strategy for Cardiac MRI
+## HALSR-Net: Improving CNN Segmentation of Cardiac Left Ventricle MRI with Hybrid Attention and Latent Space Reconstruction
 
 Accurate cardiac MRI segmentation is vital for detailed cardiac analysis, yet the manual process is labor-intensive and prone to variability. Despite advancements in MRI technology, there remains a significant need for automated methods that can reliably and efficiently segment cardiac structures. This repository introduces **ASFS-Net**, a novel multi-level segmentation architecture designed to improve the accuracy and reproducibility of cardiac segmentation from Cine-MRI acquisitions, focusing on the left ventricle (LV).
 
@@ -32,7 +32,7 @@ Experiments conducted on an in-house clinical dataset and two public datasets (*
 3. Run `python train.py` to start training.
 
 ## Results
-ASFS-Net achieves state-of-the-art performance with the integration of advanced attention mechanisms, ASPP, and reconstruction modules.
+HALSR-Net achieves state-of-the-art performance with the integration of advanced attention mechanisms, ASPP, and reconstruction modules.
 
 ## Acknowledgments
 This project was inspired by advanced segmentation frameworks in medical imaging and aims to improve automation in cardiac analysis workflows.
