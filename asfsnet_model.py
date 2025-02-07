@@ -8,7 +8,7 @@ from tensorflow.keras.layers import Input, Conv2D, BatchNormalization, MaxPoolin
 from tensorflow.keras.models import Model
 from model_utils import *
 
-def ASFSNet_model(input_size=(256, 256, 1),  num_classes=3):
+def HALSRNet_model(input_size=(256, 256, 1),  num_classes=3):
     inputs = Input(input_size)
 
     # Partie de contraction
